@@ -1,8 +1,8 @@
-type OscarProps = {
+type ChildrenProps = {
     children: React.ReactNode
 }
 
-export const Oscar = (props: OscarProps) => {
+export const Children = (props: ChildrenProps) => {
     return (
         <div>Oscar children : {props.children}</div>
     )
