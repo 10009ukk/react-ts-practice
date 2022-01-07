@@ -1,12 +1,7 @@
-type PersonType = {
-    name: {
-        first: string,
-        last: string
-    },
-    names?: {
-        first: string,
-        last: string
-    }[] // PersonList Array in Object
+import { PersonType, Name } from "./Person.types"
+
+type PersonListType = {
+    names?: Name[] // PersonList Array in Object
 }
 export const Person = ({name: {first, last}}: PersonType) => {
     return (
